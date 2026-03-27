@@ -423,6 +423,29 @@ img {
     left: 0;
 }
 
+/* ===== Timeline Sub-Roles ===== */
+.timeline-roles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.timeline-role {
+    padding-left: 20px;
+    border-left: 2px solid #233554;
+}
+
+.timeline-role-header h4 {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.timeline-role-header .timeline-date {
+    margin-top: 3px;
+}
+
 /* ===== Projects Grid ===== */
 .projects-grid {
     display: grid;
