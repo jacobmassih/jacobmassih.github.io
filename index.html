@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Massih — Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">JM</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, my name is</p>
+            <h1 class="hero-name">Jacob Massih</h1>
+            <h2 class="hero-title">Software Engineer</h2>
+            <p class="hero-description">
+                Software Engineering student at Polytechnique Montréal with hands-on experience
+                in full-stack development, embedded systems, and agile methodologies.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" aria-label="Scroll down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Software Engineering student at <strong>Polytechnique Montréal</strong>
+                        with a GPA of <strong>3.73/4</strong> and an academic excellence scholarship.
+                        I'm passionate about building clean, efficient software — from web applications
+                        to embedded systems.
+                    </p>
+                    <p>
+                        I bring experience developing in <strong>C, C++, Python, TypeScript</strong>, and
+                        more. I thrive in collaborative environments, embrace feedback, and enjoy
+                        tackling complex problems with creative solutions.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new technologies, contributing
+                        to open-source projects, or mentoring fellow students.
+                    </p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c6 3 12 0 12 0v-5"/></svg>
+                        </div>
+                        <h3>Education</h3>
+                        <p>B.Eng. Software Engineering</p>
+                        <p class="detail-sub">Polytechnique Montréal</p>
+                    </div>
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>GPA</h3>
+                        <p>3.73 / 4.0</p>
+                        <p class="detail-sub">Excellence Distinction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Morgan Stanley</h3>
+                            <span class="timeline-date">May 2023 – Present · 1 yr 11 mos</span>
+                        </div>
+                        <div class="timeline-roles">
+                            <div class="timeline-role">
+                                <div class="timeline-role-header">
+                                    <h4>Technology Associate</h4>
+                                    <span class="timeline-date">Jan 2026 – Present · 3 mos</span>
+                                </div>
+                            </div>
+                            <div class="timeline-role">
+                                <div class="timeline-role-header">
+                                    <h4>Technology Analyst</h4>
+                                    <span class="timeline-date">May 2024 – Jan 2026 · 1 yr 9 mos</span>
+                                </div>
+                            </div>
+                            <div class="timeline-role">
+                                <div class="timeline-role-header">
+                                    <h4>Technology Summer Analyst — Internship</h4>
+                                    <span class="timeline-date">May 2023 – Aug 2023 · 4 mos</span>
+                                </div>
+                                <ul class="timeline-details">
+                                    <li>Develop and maintain an internal tool featuring a Scala-based back-end and Angular-based front-end</li>
+                                    <li>Establish a comprehensive DevOps workflow using Jenkins pipelines and SonarQube for code quality</li>
+                                    <li>Conduct rigorous testing and facilitate seamless deployment of applications to higher environments</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer Intern</h3>
+                            <span class="timeline-company">InnovMetric</span>
+                            <span class="timeline-date">2022</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Developed in C++ on both back-end and front-end tasks</li>
+                            <li>Applied agile development principles on a daily basis</li>
+                            <li>Participated in all stages of the software development lifecycle</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Programming Tutor</h3>
+                            <span class="timeline-company">Polytechnique Montréal</span>
+                            <span class="timeline-date">2020 – 2022</span>
+                        </div>
+                        <p class="timeline-courses">
+                            INF1005C — Procedural Programming (C++) &nbsp;|&nbsp;
+                            INF1005D — Procedural Programming (Python) &nbsp;|&nbsp;
+                            INF1015 — Advanced OOP
+                        </p>
+                        <ul class="timeline-details">
+                            <li>Answered student questions during lab and office hours sessions</li>
+                            <li>Efficiently solved diverse technical and IT problems</li>
+                            <li>Facilitated understanding of complex theoretical concepts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-top">
+                        <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="project-links">
+                            <a href="https://github.com/jacobmassih" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Scrabble — Web Application</h3>
+                    <p class="project-description">
+                        Full-stack Scrabble game available on mobile, desktop, and web.
+                        Built the client with Angular (TypeScript, HTML, CSS), server logic
+                        with TypeScript, MongoDB integration, and real-time communication
+                        via HTTP and SocketIO. Ported to mobile with Flutter and desktop with Electron.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Angular</li>
+                        <li>TypeScript</li>
+                        <li>MongoDB</li>
+                        <li>SocketIO</li>
+                        <li>Flutter</li>
+                        <li>Electron</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-top">
+                        <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="project-links">
+                            <a href="https://github.com/jacobmassih/codetogive2022" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Code to Give 2022</h3>
+                    <p class="project-description">
+                        Hackathon organized by Morgan Stanley as part of the Digital Moment challenge.
+                        Collaborated with a team to build a solution under time constraints.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Hackathon</li>
+                        <li>Morgan Stanley</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-top">
+                        <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="project-links">
+                            <a href="https://github.com/jacobmassih/tennis-bot" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Tennis Court Reservation Bot</h3>
+                    <p class="project-description">
+                        Automated bot that books a tennis court for a specific time slot
+                        on loisirs.montreal.ca. Built to streamline the reservation process.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Automation</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-top">
+                        <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="project-links">
+                            <a href="https://github.com/jacobmassih/stock-market-portfolio" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Stock Market Portfolio</h3>
+                    <p class="project-description">
+                        Web application for tracking a stock portfolio with real-time data.
+                        Calculates annual and daily performance, displays potential profits
+                        and total portfolio value.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-top">
+                        <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="project-links">
+                            <a href="https://github.com/jacobmassih/tic-tac-toe" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Tic-Tac-Toe</h3>
+                    <p class="project-description">
+                        Classic Tic-Tac-Toe game built with C++ and Qt. Features a minimax
+                        algorithm-powered bot opponent and local multiplayer mode.
+                    </p>
+                    <ul class="project-tech">
+                        <li>C++</li>
+                        <li>Qt</li>
+                        <li>Minimax</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-top">
+                        <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="project-links">
+                            <a href="https://github.com/jacobmassih/file-organizer" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">File Organizer</h3>
+                    <p class="project-description">
+                        Python script that automatically declutters desktop and downloads
+                        folders by sorting files based on their extension.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Automation</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-top">
+                        <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                    </div>
+                    <h3 class="project-title">Embedded System Robot</h3>
+                    <p class="project-description">
+                        Software design of an embedded system on a microcontroller board.
+                        Programmed the robot in C, built custom libraries and Makefiles,
+                        and used Linux for development and communication.
+                    </p>
+                    <ul class="project-tech">
+                        <li>C</li>
+                        <li>Linux</li>
+                        <li>Embedded</li>
+                        <li>Makefiles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Electron</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">SocketIO</span>
+                        <span class="skill-tag">Qt</span>
+                        <span class="skill-tag">MFC</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">PyCharm</span>
+                        <span class="skill-tag">Mercurial</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Testing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jasmine</span>
+                        <span class="skill-tag">Karma</span>
+                        <span class="skill-tag">Mocha</span>
+                        <span class="skill-tag">Chai</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    I'm currently looking for new opportunities. Whether you have a question
+                    or just want to say hi, feel free to reach out — I'll do my best to get back to you!
+                </p>
+                <a href="mailto:massih.jacob@gmail.com" class="btn btn-primary btn-lg">Say Hello</a>
+                <div class="contact-socials">
+                    <a href="https://github.com/jacobmassih" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jacobmassih/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+                    </a>
+                    <a href="mailto:massih.jacob@gmail.com" aria-label="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by Jacob Massih</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
