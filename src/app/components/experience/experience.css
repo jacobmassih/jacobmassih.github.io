@@ -1,0 +1,124 @@
+:host {
+    display: block;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #233554;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -35px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--bg-primary);
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+}
+
+.timeline-content {
+    background-color: var(--bg-primary);
+    border: 1px solid #233554;
+    border-radius: 8px;
+    padding: 25px 30px;
+    transition: var(--transition);
+}
+
+.timeline-content:hover {
+    border-color: var(--accent);
+}
+
+.timeline-header {
+    margin-bottom: 15px;
+}
+
+.timeline-header h3 {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.timeline-company {
+    display: block;
+    color: var(--accent);
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.timeline-date {
+    display: block;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+.timeline-courses {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.timeline-details {
+    list-style: none;
+}
+
+.timeline-details li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.timeline-details li::before {
+    content: '\25B9';
+    color: var(--accent);
+    position: absolute;
+    left: 0;
+}
+
+/* ===== Timeline Sub-Roles ===== */
+.timeline-roles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.timeline-role {
+    padding-left: 20px;
+    border-left: 2px solid #233554;
+}
+
+.timeline-role-header h4 {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.timeline-role-header .timeline-date {
+    margin-top: 3px;
+}
