@@ -176,35 +176,35 @@
   margin-bottom: 18px;
 }
 
-.build-log {
+.focus-grid {
   display: grid;
   gap: 10px;
 }
 
-.build-log article {
+.focus-grid article {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 14px;
   background: rgba(18, 26, 43, 0.68);
 }
 
-.build-status {
+.focus-grid span {
   display: inline-flex;
-  color: var(--warm);
+  color: var(--accent);
   font-size: 0.72rem;
   font-weight: 800;
   margin-bottom: 7px;
   text-transform: uppercase;
 }
 
-.build-log strong {
+.focus-grid strong {
   display: block;
   color: var(--text-primary);
   font-size: 0.96rem;
   margin-bottom: 5px;
 }
 
-.build-log p {
+.focus-grid p {
   color: var(--text-secondary);
   font-size: 0.84rem;
   line-height: 1.55;
