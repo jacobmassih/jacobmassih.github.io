@@ -1,15 +1,15 @@
 :host {
-    display: block;
+  display: block;
 }
 
 .footer {
-    padding: 25px 0;
-    text-align: center;
-    background-color: var(--bg-primary);
-    border-top: 1px solid #233554;
+  padding: 28px 0;
+  text-align: center;
+  background-color: rgba(12, 17, 29, 0.84);
+  border-top: 1px solid var(--border);
 }
 
 .footer p {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
+  font-size: 0.85rem;
+  color: var(--text-muted);
 }
