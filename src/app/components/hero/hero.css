@@ -4,9 +4,7 @@
 
 .hero {
   min-height: 82svh;
-  display: grid;
-  grid-template-columns: minmax(0, 1.18fr) minmax(340px, 0.82fr);
-  gap: 48px;
+  display: flex;
   align-items: center;
   padding: calc(var(--nav-height) + 34px) 25px 46px;
   max-width: 1120px;
@@ -15,7 +13,7 @@
 }
 
 .hero-content {
-  max-width: 760px;
+  max-width: 860px;
 }
 
 .hero-greeting {
@@ -65,8 +63,7 @@
   max-width: 740px;
 }
 
-.hero-stats div,
-.hero-panel {
+.hero-stats div {
   background: rgba(18, 26, 43, 0.72);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
@@ -91,153 +88,6 @@
   color: var(--text-muted);
   font-size: 0.84rem;
   line-height: 1.45;
-}
-
-.hero-panel {
-  border-radius: 8px;
-  padding: 14px;
-  align-self: stretch;
-  min-height: 390px;
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-panel::before {
-  content: '';
-  position: absolute;
-  inset: auto -26% -24% auto;
-  width: 260px;
-  height: 260px;
-  background: radial-gradient(circle, rgba(57, 208, 164, 0.2), transparent 68%);
-  pointer-events: none;
-}
-
-.panel-topline {
-  position: absolute;
-  inset: 0 0 auto;
-  height: 5px;
-  background: linear-gradient(90deg, var(--accent), var(--warm));
-}
-
-.panel-window {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  min-height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px solid rgba(148, 163, 184, 0.14);
-  border-radius: 8px;
-  padding: 58px 28px 28px;
-  background:
-    linear-gradient(rgba(148, 163, 184, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148, 163, 184, 0.045) 1px, transparent 1px), rgba(12, 17, 29, 0.28);
-  background-size: 28px 28px;
-}
-
-.panel-dots {
-  position: absolute;
-  top: 18px;
-  left: 20px;
-  display: flex;
-  gap: 7px;
-}
-
-.panel-dots span {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--text-muted);
-}
-
-.panel-dots span:first-child {
-  background: var(--warm);
-}
-
-.panel-dots span:nth-child(2) {
-  background: var(--accent);
-}
-
-.panel-kicker {
-  color: var(--warm);
-  font-size: 0.78rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin-bottom: 12px;
-}
-
-.hero-panel h3 {
-  color: var(--text-primary);
-  font-size: 1.35rem;
-  line-height: 1.25;
-  margin-bottom: 18px;
-}
-
-.workflow-map {
-  display: grid;
-  gap: 12px;
-}
-
-.map-labels,
-.workflow-map article {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 42px minmax(0, 1fr);
-  align-items: center;
-  gap: 10px;
-}
-
-.map-labels {
-  color: var(--text-muted);
-  font-size: 0.72rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.map-labels span:last-child {
-  grid-column: 3;
-}
-
-.workflow-map article {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 13px;
-  background: rgba(18, 26, 43, 0.68);
-}
-
-.workflow-map p,
-.workflow-map strong {
-  font-size: 0.86rem;
-  line-height: 1.4;
-}
-
-.workflow-map p {
-  color: var(--text-secondary);
-}
-
-.workflow-map strong {
-  color: var(--text-primary);
-}
-
-.workflow-map article > span {
-  position: relative;
-  height: 2px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--accent), var(--warm));
-}
-
-.workflow-map article > span::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: -1px;
-  width: 8px;
-  height: 8px;
-  border-top: 2px solid var(--warm);
-  border-right: 2px solid var(--warm);
-  transform: translateY(-50%) rotate(45deg);
 }
 
 .hero-scroll {
